@@ -66,7 +66,7 @@ This restructuring enhances the maintainability, usability, and overall function
 
 ### Future Tasks  
 While the migration has been completed, the following tasks remain to ensure a polished application:  
-- Resolve potential integration bugs.  
+- Resolve potential integration bugs.  ### need to fix the integratation (The application is not yet ready to RUN)
 - Update dependencies where required.  
 - Migrate the **Navbar** and **Onboarding screens** to XML-based layouts.  
 - Implement UI improvements based on client feedback.  
