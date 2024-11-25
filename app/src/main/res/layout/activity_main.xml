@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Custom Image Button -->
+    <com.example.instalens.presentation.common.CustomImageButton
+        android:id="@+id/customImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:drawableResource="@drawable/ic_rotate_camera"
+        app:contentDescriptionResource="@string/rotate_camera_button_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true" />
+
+    <!-- Primary Button View -->
+    <com.example.instalens.presentation.common.PrimaryButtonView
+        android:id="@+id/primaryButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="Click Me"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp" />
+    <!-- Secondary Button View -->
+    <com.example.instalens.presentation.common.SecondaryButtonView
+    android:id="@+id/secondaryButtonView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:text="Click Me"
+    android:layout_centerInParent="true" />
+
+
+    <com.example.instalens.presentation.common.DetectionBoxView
+        android:id="@+id/DetectionBoxView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.instalens.presentation.home.components.CameraOverlayView
+        android:id="@+id/cameraOverlayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    
+
+    <com.example.instalens.presentation.home.components.CameraPreviewView
+        android:id="@+id/cameraPreviewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
